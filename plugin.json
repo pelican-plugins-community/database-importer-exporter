@@ -5,7 +5,7 @@
   "version": "1.0.2",
   "description": "Allows exporting and importing of server databases directly from the Pelican Panel interface.",
   "category": "plugin",
-  "url": "https://github.com/Olivier-D-Pelican-Plugins/Database-Import-Export",
+  "url": "https://github.com/pelican-plugins-community/database-importer-exporter/",
   "namespace": "DatabaseImportExport",
   "class": "DatabaseImportExportPlugin",
   "panels": [
@@ -13,9 +13,5 @@
   ],
   "composer_packages": {
     "ifsnop/mysqldump-php": "^2.11"
-  },
-  "meta": {
-    "status": "enabled",
-    "status_message": null
   }
 }
